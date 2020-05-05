@@ -1,14 +1,10 @@
 Velha Guarda Cervejaria
 ===============================================
 
- --------------------
- Tela da seleção de produtos:
- 
+ Produtos:
+=====================
  ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/menu-prod.png)
  
-
- Produtos:
- =============================================== 
 
  American Pale Ale:
 =============================================== 
