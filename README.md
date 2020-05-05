@@ -1,6 +1,10 @@
 Velha Guarda Cervejaria
 ===============================================
 
+O aplicativo foi desenvolvido na linguagem de programação Dart com o framework Flutter, utilizando autenticação de login e senha com banco de dados firebase.
+
+--------------------
+
  Produtos:
 =====================
  ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/menu-prod.png)
