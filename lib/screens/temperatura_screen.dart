@@ -7,7 +7,6 @@ import 'package:crypto/crypto.dart';
 import 'package:rflutter_alert/rflutter_alert.dart';
 import 'package:velha_guarda/screens/apa_screen.dart';
 import 'package:velha_guarda/screens/home_screen.dart';
-import 'package:velha_guarda/screens/info_screen.dart';
 import 'package:velha_guarda/screens/ipa_screen.dart';
 import 'package:velha_guarda/screens/pilsen_screen.dart';
 import 'package:velha_guarda/screens/quadrupel_screen.dart';
@@ -31,8 +30,7 @@ class TemperaturaScreenState extends State<TemperaturaScreen> {
         leading: new IconButton(
             icon: new Icon(Icons.arrow_back, color: Colors.white),
             onPressed: () {
-              Navigator.of(context)
-                  .pushReplacement(MaterialPageRoute(builder: (context) => InfoScreen()));
+
             }
         ),
       ),

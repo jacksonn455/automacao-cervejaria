@@ -60,7 +60,7 @@ class ProductScreenState extends State<ProductScreen> {
             ListTile(
               leading: CircleAvatar(
                 backgroundColor: Colors.transparent,
-                backgroundImage: AssetImage("images//icone1.jpg"),
+                backgroundImage: AssetImage("images/icone1.jpg"),
               ),
               title: Text(
                 "India Pale Ale",

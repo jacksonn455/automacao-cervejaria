@@ -3,7 +3,6 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:velha_guarda/bloc/timer_bloc.dart';
 import 'package:velha_guarda/bloc/timer_event.dart';
 import 'package:velha_guarda/bloc/timer_state.dart';
-import 'package:velha_guarda/screens/info_screen.dart';
 import 'package:velha_guarda/screens/timer_screen.dart';
 import 'package:velha_guarda/ticker.dart';
 import 'package:wave/config.dart';

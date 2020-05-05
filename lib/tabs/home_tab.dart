@@ -1,6 +1,6 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'package:velha_guarda/screens/info_screen.dart';
+import 'package:velha_guarda/screens/main.dart';
+
 
 class HomeTab extends StatelessWidget {
   @override
@@ -25,7 +25,7 @@ class HomeTab extends StatelessWidget {
                   icon: Icon(Icons.add, color: Colors.white),
                   onPressed: () {
                     Navigator.of(context).pushReplacement(
-                        MaterialPageRoute(builder: (context) => InfoScreen()));
+                        MaterialPageRoute(builder: (context) =>  Home()));
                   },
                 ),
               ],
