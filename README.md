@@ -13,7 +13,7 @@ O aplicativo foi desenvolvido na linguagem de programação Dart com o framework
 =====================
  ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/registro.png)
  
- ![]https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/registro1.png)
+ ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/registro1.png)
  
   Login:
 =====================
