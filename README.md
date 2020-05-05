@@ -5,6 +5,32 @@ O aplicativo foi desenvolvido na linguagem de programação Dart com o framework
 
 --------------------
 
+ Splash:
+=====================
+ ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/splash.png)
+ 
+  Registrar:
+=====================
+ ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/registro.png)
+ 
+ ![]https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/registro1.png)
+ 
+  Login:
+=====================
+ ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/login.png)
+ 
+ ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/login1.png)
+ 
+  Home:
+=====================
+ ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/home.png)
+ 
+ ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/menu.png)
+
+ Sobre:
+=====================
+ ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/sobre.png)
+
  Produtos:
 =====================
  ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/menu-prod.png)
@@ -53,4 +79,15 @@ O aplicativo foi desenvolvido na linguagem de programação Dart com o framework
  ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/strong3.png)
  
  ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/strong4.png)
+ 
+   Pilsen:
+=============================================== 
+
+ ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/pilsen1.png)
+ 
+ ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/pilsen2.png)
+ 
+ ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/pilsen3.png)
+ 
+ ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/pilsen4.png)
  
