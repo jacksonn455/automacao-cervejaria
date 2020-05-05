@@ -10,7 +10,7 @@ Velha Guarda Cervejaria
  Produtos:
  =============================================== 
 
-- American Pale Ale:
+ American Pale Ale:
 =============================================== 
 
  ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/apa1.png)
@@ -21,7 +21,7 @@ Velha Guarda Cervejaria
  
  ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/apa4.pngg)
  
-- India Pale Ale:
+ India Pale Ale:
 =============================================== 
 
  ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/ipa1.png)
