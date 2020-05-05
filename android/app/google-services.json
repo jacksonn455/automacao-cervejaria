@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "689245681372",
+    "firebase_url": "https://velha-guarda.firebaseio.com",
+    "project_id": "velha-guarda",
+    "storage_bucket": "velha-guarda.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:689245681372:android:c9681a7f3cf3dbf3d36619",
+        "android_client_info": {
+          "package_name": "br.com.jackson.velha_guarda"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "689245681372-4n4sgmjbuikhipfceuijbbns0g6pol9m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIsILNC03IKGrlRMc8sMLC2tzW6j8PpX0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "689245681372-4n4sgmjbuikhipfceuijbbns0g6pol9m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
