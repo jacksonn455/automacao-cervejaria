@@ -30,7 +30,7 @@ class ChangeTempWidget extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.center,
                     children: <Widget>[
                       Icon(
-                        CustomIcons.temperatire,
+                        CustomIcons.ac_unit,
                         size: 30,
                         color: Colors.grey,
                       ),

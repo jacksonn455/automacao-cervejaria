@@ -5,6 +5,7 @@ import 'package:velha_guarda/Model/homedatamodel.dart';
 import 'package:velha_guarda/Model/homepagedata.dart';
 import 'package:velha_guarda/controlwidget/airconditionerControl.dart';
 import 'package:velha_guarda/homepagewidget/mainpageswitch.dart';
+import 'package:velha_guarda/screens/rampa_screen.dart';
 import 'package:velha_guarda/util/util_smarthome.dart';
 
 
@@ -56,6 +57,12 @@ class HomePageCard extends StatelessWidget {
                           Navigator.push(
                             context,
                             MaterialPageRoute(builder: (context) => AirConditionerControlUnit()),
+                          );
+                        }
+                        if(index==1){
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(builder: (context) => RampaScreen()),
                           );
                         }
                       },

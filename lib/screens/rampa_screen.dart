@@ -3,7 +3,8 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:velha_guarda/bloc/timer_bloc.dart';
 import 'package:velha_guarda/bloc/timer_event.dart';
 import 'package:velha_guarda/bloc/timer_state.dart';
-import 'package:velha_guarda/screens/timer_screen.dart';
+import 'package:velha_guarda/screens/main.dart';
+
 import 'package:velha_guarda/ticker.dart';
 import 'package:wave/config.dart';
 import 'package:wave/wave.dart';
@@ -53,8 +54,10 @@ class Timer extends StatelessWidget {
         centerTitle: true,
         leading: new IconButton(
           icon: new Icon(Icons.arrow_back, color: Colors.white,),
-          onPressed: () =>  Navigator.of(context).pushReplacement(
-              MaterialPageRoute(builder: (context) => TimerScreen())),
+          onPressed: () {
+            Navigator.of(context).pushReplacement(
+                MaterialPageRoute(builder: (context) =>  Home()));
+          },
         ),
       ),
       body: Stack(

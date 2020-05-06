@@ -43,22 +43,6 @@ class MusicCardWidget extends StatelessWidget {
                         ),),
                     ],
                   ),
-                  Row(
-                    children: <Widget>[
-                      Icon(Icons.fast_rewind,color: Colors.grey,size: 30,),
-                      GestureDetector(
-                        onTap: (){
-                          data.switchOffAll(data.roomInfoData[2]);
-                        },
-                        child: Icon(
-                          isActive?Icons.play_arrow:Icons.pause,
-                          color: isActive?Colors.orange:Colors.grey,
-                          size: 40,
-                        ),
-                      ),
-                      Icon(Icons.fast_forward,color: Colors.grey,size: 30,),
-                    ],
-                  )
                 ],
               ),
             ),
