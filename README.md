@@ -134,7 +134,7 @@ forma correta.
  
  ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/stout1.png)
  
- ![]https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/stout2.png)
+ ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/stout2.png)
  
  ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/stout3.png)
  
