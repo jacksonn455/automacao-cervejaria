@@ -46,10 +46,19 @@ forma correta.
  Sobre:
 =====================
  ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/sobre.png)
+ 
+  Automação:
+=============================================== 
+
+ ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/automacao.png)
+ 
+ ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/freezer.png)
+ 
+ ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/geladeira.png)
 
  Produtos:
 =====================
- ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/menu-prod.png)
+ ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/menu-prod1.png)
  
 
  American Pale Ale:
@@ -106,4 +115,26 @@ forma correta.
  ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/pilsen3.png)
  
  ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/pilsen4.png)
+ 
+   Bock:
+=============================================== 
+
+ ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/bock3.png)
+ 
+ ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/bock2.png)
+ 
+ ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/bock.png)
+ 
+ ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/bock1.png)
+ 
+   Stout:
+=============================================== 
+
+ ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/stout.png)
+ 
+ ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/stout1.png)
+ 
+ ![]https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/stout2.png)
+ 
+ ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/stout3.png)
  
