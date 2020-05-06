@@ -19,6 +19,8 @@ a maturação, avaliando os dados obtidos do sensor de temperatura que foram env
 banco de dados pelo módulo ESP8266 para concluir que todos os processos ocorreram de
 forma correta.
 
+  - [Referencial Teórico](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/Referencial%20Te%C3%B3rico.pdf)
+  - [Objetivos e Justificativas](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/Objetivos%20e%20justificativas.pdf/)
 --------------------
 
  Splash:
