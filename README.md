@@ -58,7 +58,13 @@ forma correta.
  
  ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/geladeira.png)
  
-  ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/cronometro.png)
+ ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/cronometro.png)
+  
+ ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/receita1.png)
+ 
+ ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/receita2.png)
+ 
+ ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/receita3.png)
 
  Produtos:
 =====================
