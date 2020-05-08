@@ -52,11 +52,13 @@ forma correta.
   Automação:
 =============================================== 
 
- ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/automacao.png)
+ ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/automaca.png)
  
  ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/freezer.png)
  
  ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/geladeira.png)
+ 
+  ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/cronometro.png)
 
  Produtos:
 =====================
