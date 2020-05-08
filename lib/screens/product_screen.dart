@@ -139,22 +139,6 @@ class ProductScreenState extends State<ProductScreen> {
               },
             ),
             Divider(),
-            ListTile(
-              leading: CircleAvatar(
-                backgroundColor: Colors.transparent,
-                backgroundImage: AssetImage("images/icone7.jpg"),
-              ),
-              title: Text(
-                "Weize",
-                textAlign: TextAlign.justify,
-                style: TextStyle(fontSize: 13.0),
-              ),
-              onTap: () {
-                Navigator.of(context).push(
-                    MaterialPageRoute(builder: (context) => StrongScreen()));
-              },
-            ),
-            Divider(),
           ],
         ),
       );

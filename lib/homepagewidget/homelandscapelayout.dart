@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:velha_guarda/homepagewidget/homeappbar.dart';
 
 import 'homepagecard.dart';
-import 'musicplayerwidget.dart';
+
 
 class HomeLandScapeLayout extends StatelessWidget {
   @override
@@ -34,7 +34,6 @@ class HomeLandScapeLayout extends StatelessWidget {
             ),
           ],
         ),
-        MusicCardWidget(),
         SizedBox(height: 30,)
       ],
     );

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'homepagecard.dart';
-import 'musicplayerwidget.dart';
+
 
 
 class HomePortraitLayout extends StatelessWidget {
@@ -21,7 +21,6 @@ class HomePortraitLayout extends StatelessWidget {
             ),
           ],
         ),
-        MusicCardWidget(),
         Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: <Widget>[

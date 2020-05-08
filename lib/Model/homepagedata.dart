@@ -20,9 +20,9 @@ class HomePageData extends ChangeNotifier {
         isActive: true,
         iconData: CustomIcons.book),
     RoomInfoModel(
-        title: 'Config',
-        isActive: false,
-        iconData: CustomIcons.settings),
+        title: 'Receitas',
+        isActive: true,
+        iconData: CustomIcons.book),
     RoomInfoModel(
         title: 'Sobre',
         isActive: true,

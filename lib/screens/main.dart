@@ -4,6 +4,7 @@ import 'package:velha_guarda/Model/homepagedata.dart';
 import 'package:velha_guarda/homepagewidget/homeappbar.dart';
 import 'package:velha_guarda/homepagewidget/homelandscapelayout.dart';
 import 'package:velha_guarda/homepagewidget/homeportraitlayout.dart';
+import 'package:velha_guarda/screens/home_screen.dart';
 
 
 void main() => runApp(new MyApp());
@@ -26,12 +27,25 @@ class Home extends StatefulWidget {
 class _HomeState extends State<Home> {
   int _selectedIndex = 0;
   static const TextStyle optionStyle =
-      TextStyle(fontSize: 30, fontWeight: FontWeight.bold);
+  TextStyle(fontSize: 30, fontWeight: FontWeight.bold);
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.grey[200],
+      appBar: (AppBar(
+        brightness: Brightness.light,
+        backgroundColor: Colors.grey[200],
+        elevation: 0,
+        leading: new IconButton(
+            icon: new Icon(Icons.arrow_back),
+            color:Colors.orange,
+            onPressed: () {
+              Navigator.of(context).pushReplacement(
+                  MaterialPageRoute(builder: (context) => HomeScreen()));
+            }
+        ),
+      )),
       body: HomePage(),
     );
   }
@@ -89,7 +103,3 @@ class ScrollView extends StatelessWidget {
 }
 
 
-
-
-
-//https://dribbble.com/shots/6959677-Smart-home/attachments/1785?mode=media

@@ -48,18 +48,21 @@ class Timer extends StatelessWidget {
   Widget build(BuildContext context) {
     final TimerBloc _timerBloc = BlocProvider.of<TimerBloc>(context);
     return Scaffold(
-      appBar: new AppBar(
-        backgroundColor: Colors.orange,
-        title: Text('Rampa de Fervura', style: TextStyle(color: Colors.white),),
+      appBar: (AppBar(
+        brightness: Brightness.light,
+        backgroundColor: Colors.grey[200],
+        elevation: 0,
+        title: Text('Rampa de fervura', style: TextStyle(color: Colors.orange)),
         centerTitle: true,
         leading: new IconButton(
-          icon: new Icon(Icons.arrow_back, color: Colors.white,),
-          onPressed: () {
-            Navigator.of(context).pushReplacement(
-                MaterialPageRoute(builder: (context) =>  Home()));
-          },
+            icon: new Icon(Icons.arrow_back),
+            color:Colors.orange,
+            onPressed: () {
+              Navigator.of(context).pushReplacement(
+                  MaterialPageRoute(builder: (context) => Home()));
+            }
         ),
-      ),
+      )),
       body: Stack(
         children: [
           Background(),

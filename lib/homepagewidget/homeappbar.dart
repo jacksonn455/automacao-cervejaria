@@ -20,11 +20,6 @@ class HomeAppBar extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: <Widget>[
                 Text(
-                  getCurrentDate,
-                  style:
-                  dateTextStyle.copyWith(color: Colors.grey[700]),
-                ),
-                Text(
                   'Automação',
                   style: homeTitleTextStyle,
                 )
