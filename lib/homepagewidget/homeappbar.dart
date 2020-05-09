@@ -10,7 +10,7 @@ class HomeAppBar extends StatelessWidget {
     return Consumer<HomePageData>(
       builder: (context, data,child){
       return  Padding(
-        padding: const EdgeInsets.only(top: 58),
+        padding: const EdgeInsets.only(top: 0),
         child: Row(
           mainAxisSize: MainAxisSize.max,
           crossAxisAlignment: CrossAxisAlignment.start,

@@ -42,7 +42,7 @@ class PlaceTile extends StatelessWidget {
                   style: TextStyle(fontSize: 15.0),
                 ),
                 Text(
-                  "+55 (54) 3321-0001",
+                  "+55 (54) 98435-4004",
                   textAlign: TextAlign.start,
                   style: TextStyle(fontSize: 15.0),
                 )
@@ -67,7 +67,7 @@ class PlaceTile extends StatelessWidget {
                 textColor: Colors.orange,
                 padding: EdgeInsets.zero,
                 onPressed: () {
-                  launch("tel:(54)3321-0001");
+                  launch("tel:(54)98435-4005");
                 },
               ),
             ],
