@@ -2,6 +2,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:velha_guarda/Model/aliment.dart';
+import 'package:velha_guarda/screens/home.dart';
 
 
 class AlimentWidget extends StatelessWidget {
@@ -51,7 +52,10 @@ class AlimentWidget extends StatelessWidget {
             Container(
               child: OutlineButton(
                 borderSide: BorderSide(color: theme.colors[0]),
-                onPressed: () async {},
+                onPressed: () {
+                  Navigator.of(context).push(
+                      MaterialPageRoute(builder: (context) =>  DescricaoReceita()));
+                },
                 shape: StadiumBorder(),
                 child: SizedBox(
                   width: 60.0,

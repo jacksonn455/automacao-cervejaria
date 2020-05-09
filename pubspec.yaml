@@ -66,10 +66,6 @@ flutter:
   # the material Icons class.
   uses-material-design: true
 
-  fonts:
-    - family: CustomIcons
-      fonts:
-        - asset: fonts/CustomIcons.ttf
 
 
   # To add assets to your application, add an assets section, like this:
@@ -79,7 +75,29 @@ flutter:
   assets:
     - images/
     - assets/
+    - fonts/
 
+  fonts:
+    - family: CustomIcons
+      fonts:
+        - asset: fonts/CustomIcons.ttf
+
+    - family: Qwigley
+      fonts:
+        - asset: fonts/qwigley/Qwigley-Regular.ttf
+
+    - family: Dosis
+      fonts:
+        - asset: fonts/dosis/Dosis-Regular.otf
+          weight: 400
+        - asset: fonts/dosis/Dosis-Medium.otf
+          weight: 500
+        - asset: fonts/dosis/Dosis-SemiBold.otf
+          weight: 600
+        - asset: fonts/dosis/Dosis-Bold.otf
+          weight: 800
+        - asset: fonts/dosis/Dosis-ExtraBold.otf
+          weight: 900
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
