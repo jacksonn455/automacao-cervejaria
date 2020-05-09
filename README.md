@@ -65,6 +65,10 @@ forma correta.
  ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/receita2.png)
  
  ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/receita3.png)
+ 
+ ![]https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/descricaoreceita2.png)
+ 
+ ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/descricaoreceita1.png)
 
  Produtos:
 =====================
