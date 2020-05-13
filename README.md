@@ -72,7 +72,7 @@ forma correta.
  
  ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/descricaoreceita4.png)
  
- ![]https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/descricaoreceita3.png)
+ ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/descricaoreceita3.png)
 
  Produtos:
 =====================
