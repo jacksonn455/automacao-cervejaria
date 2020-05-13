@@ -17,7 +17,7 @@ class MainPageSwitch extends StatelessWidget {
         child: Container(
           height: 20,width: 40,
           decoration: BoxDecoration(
-              color: isFanOn?Colors.orange:Colors.grey[300],
+              color: isFanOn?Colors.orange:Colors.grey[200],
               borderRadius: BorderRadius.circular(30)
           ),
           child: Padding(

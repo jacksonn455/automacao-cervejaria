@@ -55,13 +55,6 @@ class DescricaoReceita extends StatelessWidget {
                         ),
                         Padding(
                           padding: const EdgeInsets.all(4.0),
-                          child: Text(
-                            Data.recipes[index].title,
-                            style: TextStyle(
-                                color: Colors.white,
-                                fontSize: 20,
-                                fontWeight: FontWeight.bold),
-                          ),
                         )
                       ],
                     ),

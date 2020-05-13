@@ -6,9 +6,9 @@ class Nutrients {
 }
 
 class Recipe{
-  String id,imageUrl,title;
+  String id,imageUrl;
   List<String> steps;
   List<String> ingredients;
   List<Nutrients> nutrients;
-  Recipe({this.id,this.title,this.imageUrl,this.steps,this.ingredients,this.nutrients});
+  Recipe({this.id,this.imageUrl,this.steps,this.ingredients,this.nutrients});
 }

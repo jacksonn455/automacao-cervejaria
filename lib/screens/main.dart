@@ -32,10 +32,10 @@ class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.grey[200],
+      backgroundColor: Colors.grey[300],
       appBar: (AppBar(
         brightness: Brightness.light,
-        backgroundColor: Colors.grey[200],
+        backgroundColor: Colors.grey[300],
         elevation: 0,
         leading: new IconButton(
             icon: new Icon(Icons.arrow_back),

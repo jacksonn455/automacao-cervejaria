@@ -18,7 +18,6 @@ class DetailsPage extends StatelessWidget {
               floating: false,
               pinned: true,
               backgroundColor: Colors.grey[800],
-              title: Text(recipe.title),
               flexibleSpace: FlexibleSpaceBar(
                 background: Hero(
                   tag: recipe.id,
@@ -35,28 +34,32 @@ class DetailsPage extends StatelessWidget {
         },
         body: Container(
           color:  Colors.grey[800],
-          padding: EdgeInsets.only(top: 8.0),
+          padding: EdgeInsets.only(top: 5.0),
           child: SingleChildScrollView(
             physics: BouncingScrollPhysics(),
             child: Column(
               children: <Widget>[
-                Text('Nutrition',
+                Text('Nutrição',
                     style: TextStyle(
                         color: Colors.orange,
                         fontWeight: FontWeight.bold,
                         fontSize: 20)),
+                SizedBox(height: 10.0,),
                 NutritionWidget(
                   nutrients: recipe.nutrients,
                 ),
-                Text('Ingredients',
+                SizedBox(height: 15.0,),
+                Text('Ingredientes',
                     style: TextStyle(
                         color: Colors.orange,
                         fontWeight: FontWeight.bold,
                         fontSize: 20)),
+                SizedBox(height: 10.0,),
                 IngredientsWidget(
                   ingredients: recipe.ingredients,
                 ),
-                Text('Steps',
+                SizedBox(height: 10.0,),
+                Text('Passo a passo',
                     style: TextStyle(
                         color: Colors.orange,
                         fontWeight: FontWeight.bold,
