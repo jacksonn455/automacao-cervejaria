@@ -47,7 +47,11 @@ forma correta.
 
  Sobre:
 =====================
- ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/sobre.png)
+ ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/sobre4.png)
+ 
+ ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/sobre3.png)
+ 
+ ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/sobre2.png)
  
   Automação:
 =============================================== 
