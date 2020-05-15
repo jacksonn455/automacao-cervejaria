@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:velha_guarda/screens/certo_screen.dart';
 import 'package:velha_guarda/screens/ok_screen.dart';
 
-class CarrinhoApa extends StatelessWidget {
+class CarrinhoBock extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
         backgroundColor: Colors.orange,
-        title: Text('American Pale Ale', style: TextStyle(color: Colors.white)),
+        title: Text('Bock', style: TextStyle(color: Colors.white)),
         centerTitle: true,
         leading: new IconButton(
             icon: new Icon(Icons.arrow_back),
@@ -27,7 +27,7 @@ class CarrinhoApa extends StatelessWidget {
                 padding: EdgeInsets.all(8.0),
                 width: 150.0,
                 child: Image.asset(
-                  "images/packapa.png",
+                  "images/packbock.png",
                   fit: BoxFit.cover,
                 ),
               ),
@@ -39,7 +39,7 @@ class CarrinhoApa extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: <Widget>[
                       Text(
-                        "Americam Pale Ale",
+                        "Bock",
                         style: TextStyle(
                             fontWeight: FontWeight.w500, fontSize: 17.0),
                       ),

@@ -40,7 +40,7 @@ class _RampaScreenState extends State<RampaScreen> {
 
 class Timer extends StatelessWidget {
   static const TextStyle timerTextStyle = TextStyle(
-    fontSize: 60,
+    fontSize: 100,
     fontWeight: FontWeight.bold, color: Colors.white
   );
 

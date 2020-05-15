@@ -8,7 +8,7 @@ import 'package:velha_guarda/ticker.dart';
 
 class TimerBloc extends Bloc<TimerEvent, TimerState> {
   final Ticker _ticker;
-  final int _duration = 60;
+  final int _duration = 3000;
 
   StreamSubscription<int> _tickerSubscription;
 

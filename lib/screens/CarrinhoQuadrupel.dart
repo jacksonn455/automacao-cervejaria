@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:velha_guarda/screens/certo_screen.dart';
 import 'package:velha_guarda/screens/ok_screen.dart';
 
-class CarrinhoApa extends StatelessWidget {
+class CarrinhoQuadrupel extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
         backgroundColor: Colors.orange,
-        title: Text('American Pale Ale', style: TextStyle(color: Colors.white)),
+        title: Text('Quadrupel', style: TextStyle(color: Colors.white)),
         centerTitle: true,
         leading: new IconButton(
             icon: new Icon(Icons.arrow_back),
@@ -27,7 +27,7 @@ class CarrinhoApa extends StatelessWidget {
                 padding: EdgeInsets.all(8.0),
                 width: 150.0,
                 child: Image.asset(
-                  "images/packapa.png",
+                  "images/packquadrup.png",
                   fit: BoxFit.cover,
                 ),
               ),
@@ -39,7 +39,7 @@ class CarrinhoApa extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: <Widget>[
                       Text(
-                        "Americam Pale Ale",
+                        "Quadrupel",
                         style: TextStyle(
                             fontWeight: FontWeight.w500, fontSize: 17.0),
                       ),
@@ -86,7 +86,7 @@ class CarrinhoApa extends StatelessWidget {
                 children: <Widget>[
                   Card(
                     margin:
-                        EdgeInsets.symmetric(horizontal: 8.0, vertical: 4.0),
+                    EdgeInsets.symmetric(horizontal: 8.0, vertical: 4.0),
                     child: ExpansionTile(
                       title: Text(
                         "Cálcular Frete",
@@ -111,7 +111,7 @@ class CarrinhoApa extends StatelessWidget {
                   SizedBox(height: 5.0),
                   Card(
                     margin:
-                        EdgeInsets.symmetric(horizontal: 8.0, vertical: 4.0),
+                    EdgeInsets.symmetric(horizontal: 8.0, vertical: 4.0),
                     child: ExpansionTile(
                       title: Text(
                         "Cupom de Desconto",
@@ -139,7 +139,7 @@ class CarrinhoApa extends StatelessWidget {
                   ),
                   Card(
                     margin:
-                        EdgeInsets.symmetric(horizontal: 8.0, vertical: 4.0),
+                    EdgeInsets.symmetric(horizontal: 8.0, vertical: 4.0),
                     child: Container(
                         padding: EdgeInsets.all(16.0),
                         child: Column(
@@ -195,13 +195,13 @@ class CarrinhoApa extends StatelessWidget {
                               height: 12.0,
                             ),
                             RaisedButton(
-                              child: Text("Finalizar Pedido"),
-                              textColor: Colors.white,
-                              color: Colors.orange,
-                              onPressed: (){
-                                Navigator.of(context).push(
-                                    MaterialPageRoute(builder: (context) => CertoScreen()));
-                              }
+                                child: Text("Finalizar Pedido"),
+                                textColor: Colors.white,
+                                color: Colors.orange,
+                                onPressed: (){
+                                  Navigator.of(context).push(
+                                      MaterialPageRoute(builder: (context) => CertoScreen()));
+                                }
                             )
                           ],
                         )),
