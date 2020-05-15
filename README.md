@@ -70,9 +70,9 @@ forma correta.
  
  ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/receita3.png)
  
- ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/descricaoreceita2.png)
+ ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/descricaoreceita4.png)
  
- ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/descricaoreceita1.png)
+ ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/descricaoreceita3.png)
 
  Produtos:
 =====================
@@ -82,13 +82,17 @@ forma correta.
  American Pale Ale:
 =============================================== 
 
- ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/apa1.png)
+ ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/apa6.png)
+ 
+ ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/apa5.png)
  
  ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/apa2.png)
  
  ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/apa3.png)
  
- ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/apa4.pngg)
+ ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/apa4.png)
+ 
+ ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/apa7.png)
  
  India Pale Ale:
 =============================================== 
