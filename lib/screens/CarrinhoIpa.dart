@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:velha_guarda/screens/carteira_screen.dart';
 import 'package:velha_guarda/screens/certo_screen.dart';
 import 'package:velha_guarda/screens/ok_screen.dart';
 
@@ -200,7 +201,7 @@ class CarrinhoIpa extends StatelessWidget {
                                 color: Colors.orange,
                                 onPressed: (){
                                   Navigator.of(context).push(
-                                      MaterialPageRoute(builder: (context) => CertoScreen()));
+                                      MaterialPageRoute(builder: (context) => CarteiraScreen()));
                                 }
                             )
                           ],
