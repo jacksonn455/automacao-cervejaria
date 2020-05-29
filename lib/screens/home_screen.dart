@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:velha_guarda/screens/product_screen.dart';
+import 'package:velha_guarda/screens/sobre_screen.dart';
 import 'package:velha_guarda/tabs/home_tab.dart';
-import 'package:velha_guarda/tiles/place_tile.dart';
 import 'package:velha_guarda/widgets/custom_drawer.dart';
 
 
@@ -36,7 +36,7 @@ class HomeScreen extends StatelessWidget {
             title: Text("Sobre"),
             centerTitle: true,
           ),
-          body: PlaceTile(),
+          body: SobreScreen(),
           drawer: CustomDrawer(_pageController),
         ),
       ],

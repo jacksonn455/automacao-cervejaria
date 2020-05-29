@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:velha_guarda/screens/automacao_screen.dart';
 import 'package:velha_guarda/screens/main.dart';
 
 
@@ -25,7 +26,7 @@ class HomeTab extends StatelessWidget {
                   icon: Icon(Icons.add, color: Colors.white),
                   onPressed: () {
                     Navigator.of(context).pushReplacement(
-                        MaterialPageRoute(builder: (context) =>  Home()));
+                        MaterialPageRoute(builder: (context) =>  AutomacaoScreen()));
                   },
                 ),
               ],

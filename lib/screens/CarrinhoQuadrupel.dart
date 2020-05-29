@@ -14,13 +14,15 @@ class _CarrinhoQuadrupelState extends State<CarrinhoQuadrupel> {
   double _valor = 13.50;
   double _resultado = 0.00;
   double _subtotal = 0.00;
-  int _frete = 15;
-
+  double _frete = 0.00;
+  double _disconto = 0.00;
 
   void changeUnidade(int delta) {
     setState(() {
+
       if( _unidade >= 0) {
         _unidade += delta;
+        _frete = 15.00;
         _subtotal =  (_valor * _unidade);
         _resultado = (_valor * _unidade) + _frete;
       }
@@ -30,15 +32,26 @@ class _CarrinhoQuadrupelState extends State<CarrinhoQuadrupel> {
       }
 
       if(_unidade == 0){
-        _resultado = 0;
+        _resultado = 0.00;
+        _disconto = 0.00;
+        _subtotal = 0.00;
+        _frete = 0.00;
       }
 
       if(_resultado < 0){
         _resultado = 0;
       }
+
+      if( _subtotal > 100){
+        _disconto = 10.00;
+        _subtotal = _subtotal - _disconto;
+      }
+
+      if( _subtotal < 100) {
+        _disconto = 0.00;
+      }
     });
   }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -202,7 +215,7 @@ class _CarrinhoQuadrupelState extends State<CarrinhoQuadrupel> {
                               mainAxisAlignment: MainAxisAlignment.spaceBetween,
                               children: <Widget>[
                                 Text("Desconto"),
-                                Text("R\$ 0,00")
+                                Text("${_disconto.toStringAsFixed(2)}")
                               ],
                             ),
                             Divider(),
@@ -210,7 +223,7 @@ class _CarrinhoQuadrupelState extends State<CarrinhoQuadrupel> {
                               mainAxisAlignment: MainAxisAlignment.spaceBetween,
                               children: <Widget>[
                                 Text("Entrega"),
-                                Text("R\$ 15,00")
+                                Text("${_frete.toStringAsFixed(2)}")
                               ],
                             ),
                             Divider(),
