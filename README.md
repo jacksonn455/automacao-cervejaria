@@ -62,7 +62,9 @@ forma correta.
  
  ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/geladeira.png)
  
- ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/cronometro.png)
+ ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/cronometro1.png)
+ 
+ ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/vazio.png)
   
  ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/receita1.png)
  
@@ -93,6 +95,8 @@ forma correta.
  ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/apa4.png)
  
  ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/apa7.png)
+ 
+ ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/compras.png)
  
  India Pale Ale:
 =============================================== 
