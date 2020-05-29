@@ -59,7 +59,7 @@ class PilsenScreenState extends State<PilsenScreen> {
                   maxLines: 3,
                 ),
                 Text(
-                  "R\$ 13,50",
+                  "R\$ 10,50",
                   style: TextStyle(
                       fontSize: 22.0,
                       fontWeight: FontWeight.bold,

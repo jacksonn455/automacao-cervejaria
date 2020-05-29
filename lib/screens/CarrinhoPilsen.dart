@@ -3,7 +3,42 @@ import 'package:velha_guarda/screens/carteira_screen.dart';
 import 'package:velha_guarda/screens/certo_screen.dart';
 import 'package:velha_guarda/screens/ok_screen.dart';
 
-class CarrinhoPilsen extends StatelessWidget {
+
+class CarrinhoPilsen extends StatefulWidget {
+  @override
+  _CarrinhoPilsenState createState() => _CarrinhoPilsenState();
+}
+
+class _CarrinhoPilsenState extends State<CarrinhoPilsen> {
+  int _unidade = 0;
+  double _valor = 10.50;
+  double _resultado = 0.00;
+  double _subtotal = 0.00;
+  int _frete = 15;
+
+
+  void changeUnidade(int delta) {
+    setState(() {
+      if( _unidade >= 0) {
+        _unidade += delta;
+        _subtotal =  (_valor * _unidade);
+        _resultado = (_valor * _unidade) + _frete;
+      }
+
+      if ( _unidade < 0){
+        _unidade = 0;
+      }
+
+      if(_unidade == 0){
+        _resultado = 0;
+      }
+
+      if(_resultado < 0){
+        _resultado = 0;
+      }
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -49,7 +84,7 @@ class CarrinhoPilsen extends StatelessWidget {
                         style: TextStyle(fontWeight: FontWeight.w300),
                       ),
                       Text(
-                        "R\$ 13,50",
+                        "R\$ 10,50",
                         style: TextStyle(
                             color: Colors.orange,
                             fontSize: 16.0,
@@ -61,13 +96,17 @@ class CarrinhoPilsen extends StatelessWidget {
                           IconButton(
                             icon: Icon(Icons.remove),
                             color: Colors.orange,
-                            onPressed: () {},
+                            onPressed: () {
+                              changeUnidade(-1);
+                            },
                           ),
-                          Text("1"),
+                          Text("$_unidade"),
                           IconButton(
                             icon: Icon(Icons.add),
                             color: Colors.orange,
-                            onPressed: () {},
+                            onPressed: () {
+                              changeUnidade(1);
+                            },
                           ),
                         ],
                       )
@@ -155,7 +194,7 @@ class CarrinhoPilsen extends StatelessWidget {
                               mainAxisAlignment: MainAxisAlignment.spaceBetween,
                               children: <Widget>[
                                 Text("Subtotal"),
-                                Text("R\$ 13,50")
+                                Text("${_subtotal.toStringAsFixed(2)}")
                               ],
                             ),
                             Divider(),
@@ -186,7 +225,7 @@ class CarrinhoPilsen extends StatelessWidget {
                                   style: TextStyle(fontWeight: FontWeight.w500),
                                 ),
                                 Text(
-                                  "R\$ 28,50",
+                                  "${_resultado.toStringAsFixed(2)}",
                                   style: TextStyle(
                                       color: Colors.orange, fontSize: 16.0),
                                 )

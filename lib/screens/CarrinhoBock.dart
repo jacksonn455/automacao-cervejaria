@@ -3,7 +3,44 @@ import 'package:velha_guarda/screens/carteira_screen.dart';
 import 'package:velha_guarda/screens/certo_screen.dart';
 import 'package:velha_guarda/screens/ok_screen.dart';
 
-class CarrinhoBock extends StatelessWidget {
+
+
+
+class CarrinhoBock extends StatefulWidget {
+  @override
+  _CarrinhoBockState createState() => _CarrinhoBockState();
+}
+
+class _CarrinhoBockState extends State<CarrinhoBock> {
+  int _unidade = 0;
+  double _valor = 13.50;
+  double _resultado = 0.00;
+  double _subtotal = 0.00;
+  int _frete = 15;
+
+
+  void changeUnidade(int delta) {
+    setState(() {
+      if( _unidade >= 0) {
+        _unidade += delta;
+        _subtotal =  (_valor * _unidade);
+        _resultado = (_valor * _unidade) + _frete;
+      }
+
+      if ( _unidade < 0){
+        _unidade = 0;
+      }
+
+      if(_unidade == 0){
+        _resultado = 0;
+      }
+
+      if(_resultado < 0){
+        _resultado = 0;
+      }
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -61,13 +98,17 @@ class CarrinhoBock extends StatelessWidget {
                           IconButton(
                             icon: Icon(Icons.remove),
                             color: Colors.orange,
-                            onPressed: () {},
+                            onPressed: () {
+                              changeUnidade(-1);
+                            },
                           ),
-                          Text("1"),
+                          Text("$_unidade"),
                           IconButton(
                             icon: Icon(Icons.add),
                             color: Colors.orange,
-                            onPressed: () {},
+                            onPressed: () {
+                              changeUnidade(1);
+                            },
                           ),
                         ],
                       )
@@ -87,7 +128,7 @@ class CarrinhoBock extends StatelessWidget {
                 children: <Widget>[
                   Card(
                     margin:
-                        EdgeInsets.symmetric(horizontal: 8.0, vertical: 4.0),
+                    EdgeInsets.symmetric(horizontal: 8.0, vertical: 4.0),
                     child: ExpansionTile(
                       title: Text(
                         "Cálcular Frete",
@@ -112,7 +153,7 @@ class CarrinhoBock extends StatelessWidget {
                   SizedBox(height: 5.0),
                   Card(
                     margin:
-                        EdgeInsets.symmetric(horizontal: 8.0, vertical: 4.0),
+                    EdgeInsets.symmetric(horizontal: 8.0, vertical: 4.0),
                     child: ExpansionTile(
                       title: Text(
                         "Cupom de Desconto",
@@ -140,7 +181,7 @@ class CarrinhoBock extends StatelessWidget {
                   ),
                   Card(
                     margin:
-                        EdgeInsets.symmetric(horizontal: 8.0, vertical: 4.0),
+                    EdgeInsets.symmetric(horizontal: 8.0, vertical: 4.0),
                     child: Container(
                         padding: EdgeInsets.all(16.0),
                         child: Column(
@@ -155,7 +196,7 @@ class CarrinhoBock extends StatelessWidget {
                               mainAxisAlignment: MainAxisAlignment.spaceBetween,
                               children: <Widget>[
                                 Text("Subtotal"),
-                                Text("R\$ 13,50")
+                                Text("${_subtotal.toStringAsFixed(2)}")
                               ],
                             ),
                             Divider(),
@@ -186,7 +227,7 @@ class CarrinhoBock extends StatelessWidget {
                                   style: TextStyle(fontWeight: FontWeight.w500),
                                 ),
                                 Text(
-                                  "R\$ 28,50",
+                                  "${_resultado.toStringAsFixed(2)}",
                                   style: TextStyle(
                                       color: Colors.orange, fontSize: 16.0),
                                 )
@@ -196,13 +237,13 @@ class CarrinhoBock extends StatelessWidget {
                               height: 12.0,
                             ),
                             RaisedButton(
-                              child: Text("Finalizar Pedido"),
-                              textColor: Colors.white,
-                              color: Colors.orange,
-                              onPressed: (){
-                                Navigator.of(context).push(
-                                    MaterialPageRoute(builder: (context) => CarteiraScreen()));
-                              }
+                                child: Text("Finalizar Pedido"),
+                                textColor: Colors.white,
+                                color: Colors.orange,
+                                onPressed: (){
+                                  Navigator.of(context).push(
+                                      MaterialPageRoute(builder: (context) => CarteiraScreen()));
+                                }
                             )
                           ],
                         )),
