@@ -1,7 +1,7 @@
 Velha Guarda Cervejaria
 ===============================================
 
-  - [Projetp de conclusão de curso](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/Projeto%20de%20conclus%C3%A3o%20de%20curso.pdf)
+  - [Projeto de conclusão de curso](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/Projeto%20de%20conclus%C3%A3o%20de%20curso.pdf)
 
 --------------------
 
