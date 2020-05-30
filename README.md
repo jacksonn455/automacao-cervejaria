@@ -47,6 +47,8 @@ forma correta.
 
  Sobre:
 =====================
+ ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/animacao-sobre.png)
+
  ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/sobre4.png)
  
  ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/sobre3.png)
@@ -55,6 +57,7 @@ forma correta.
  
   Automação:
 =============================================== 
+ ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/animacao-automacao.png)
 
  ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/automaca.png)
  
