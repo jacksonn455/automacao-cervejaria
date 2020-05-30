@@ -1,26 +1,8 @@
 Velha Guarda Cervejaria
 ===============================================
 
- - O objetivo principal deste projeto consiste em apresentar uma solução para o controle
-automatizado no processo de produção de cerveja artesanal, levando em conta uma produção
-de até cem litros, proporcionando maior segurança, agilidade, produtividade e redução de
-custos. 
+  - [Projetp de conclusão de curso](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/Projeto%20de%20conclus%C3%A3o%20de%20curso.pdf)
 
-- Este trabalho apresenta o desenvolvimento de um aplicativo onde foram utilizados, a
-metodologia orientada a objeto e as ferramentas Android Studio com a plataforma de
-desenvolvimento Dart com o framework Flutter, juntamente com o banco de dados do
-Firebase. 
-
-- O presente trabalho visa aplicar a estrutura do módulo ESP8266 utilizando a
-linguagem de programação C no ambiente de desenvolvimento integrado do Arduino,
-juntamente com o sensor de temperatura DS18B20 a prova d’água para medir a temperatura
-em todos os processos de produção da cerveja, desde a fervura, resfriamento, fermentação até
-a maturação, avaliando os dados obtidos do sensor de temperatura que foram enviados ao
-banco de dados pelo módulo ESP8266 para concluir que todos os processos ocorreram de
-forma correta.
-
-  - [Referencial Teórico](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/Referencial%20Te%C3%B3rico.pdf)
-  - [Objetivos e Justificativas](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/Objetivos%20e%20justificativas.pdf/)
 --------------------
 
  Splash:
