@@ -6,11 +6,9 @@ Velha Guarda Cervejaria
 
 
  ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/kit1.png)
---------------------
+
 
  Aplicativo
-=====================
-=====================
 =====================
 
  Splash:
