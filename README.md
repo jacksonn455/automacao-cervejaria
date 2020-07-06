@@ -29,7 +29,6 @@ Velha Guarda Cervejaria
   Home:
 =====================
  ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/home.png)
-
  ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/menu.png)
 
  Sobre:
@@ -118,21 +117,17 @@ Velha Guarda Cervejaria
 =============================================== 
 
  ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/bock3.png)
- 
  ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/bock2.png)
  
  ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/bock.png)
- 
  ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/bock1.png)
  
    Stout:
 =============================================== 
 
  ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/stout.png)
- 
  ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/stout1.png)
  
  ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/stout2.png)
- 
  ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/stout3.png)
  
