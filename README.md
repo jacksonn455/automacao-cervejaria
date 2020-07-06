@@ -12,10 +12,12 @@ Velha Guarda Cervejaria
 =====================
 
  Splash:
+ =====================
  ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/splash.png)
 
  
  Registrar:
+ =====================
  ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/registro.png)
  ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/registro1.png)
  
