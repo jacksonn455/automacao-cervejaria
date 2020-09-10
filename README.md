@@ -5,7 +5,8 @@ Velha Guarda Cervejaria
   - [Apresentação Projeto de conclusão de curso](https://github.com/jacksonn455/automacao-cervejaria/blob/master/arquivos/Monografia%20do%20Projeto%20de%20Conclus%C3%A3o%20de%20Curso.pdf)
 
 
- ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/kit1.png)
+ ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/kit2.png)
+  ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/rotulo.png)
 
 
  Aplicativo
