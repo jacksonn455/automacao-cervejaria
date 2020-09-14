@@ -133,5 +133,8 @@ Velha Guarda Cervejaria
 =============================================== 
 
  ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/apa7.png)
+ ![]https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/cartao1.png)
+ ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/cartao2.png)
+ ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/cartao3.png)
  ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/compras.png)
  
