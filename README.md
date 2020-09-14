@@ -74,10 +74,7 @@ Velha Guarda Cervejaria
  ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/apa3.png)
  
  ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/apa4.png)
- ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/apa7.png)
- 
- ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/compras.png)
- 
+  
  India Pale Ale:
 =============================================== 
 
@@ -131,4 +128,10 @@ Velha Guarda Cervejaria
  
  ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/stout2.png)
  ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/stout3.png)
+ 
+ Carrinho de compras: 
+=============================================== 
+
+ ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/apa7.png)
+ ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/compras.png)
  
