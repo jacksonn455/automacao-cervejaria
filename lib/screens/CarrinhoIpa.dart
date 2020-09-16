@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:velha_guarda/screens/carteira_screen.dart';
 import 'package:velha_guarda/screens/certo_screen.dart';
+import 'package:velha_guarda/screens/creditCard.dart';
 import 'package:velha_guarda/screens/ok_screen.dart';
 
 class CarrinhoIpa extends StatefulWidget {
@@ -254,7 +255,7 @@ class _CarrinhoIpaState extends State<CarrinhoIpa> {
                                 color: Colors.orange,
                                 onPressed: (){
                                   Navigator.of(context).push(
-                                      MaterialPageRoute(builder: (context) => CarteiraScreen()));
+                                      MaterialPageRoute(builder: (context) => CreditCard()));
                                 }
                             )
                           ],

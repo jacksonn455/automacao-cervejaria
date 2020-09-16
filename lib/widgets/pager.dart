@@ -1,10 +1,9 @@
-
 import 'package:flutter/material.dart';
-import 'package:velha_guarda/widgets/page.dart';
+import 'package:velha_guarda/widgets/page.dart' as mypage;
 import 'package:velha_guarda/widgets/rectangle_indicator.dart';
 
 class MenuPager extends StatefulWidget {
-  final List<Page> children;
+  final List<mypage.Page> children;
 
   MenuPager({@required this.children});
 
@@ -39,7 +38,7 @@ class _MenuPagerState extends State<MenuPager> {
     });
   }
 
-  Widget _renderContents(List<Page> pages, int selectedPageIndex,
+  Widget _renderContents(List<mypage.Page> pages, int selectedPageIndex,
       void onPageChanged(int pageIndex)) {
     return PageView(
       controller: PageController(
@@ -51,7 +50,7 @@ class _MenuPagerState extends State<MenuPager> {
     );
   }
 
-  Widget _renderPage(Page page, int index, int selectedPageIndex) {
+  Widget _renderPage(mypage.Page page, int index, int selectedPageIndex) {
     var resizeFactor = 1 - ((selectedPageIndex - index).abs() * 0.2).clamp(0.0, 1.0);
     return Center(
       child: Container(
