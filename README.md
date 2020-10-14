@@ -46,28 +46,30 @@ Velha Guarda Cervejaria
  ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/animacao-automacao.png)
  ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/automaca.png)
  
-  Medidor de temperatura com o Módulo ESP8266 NodeMCU V3 + DS18B20
+  Medidor de temperatura com o Módulo ESP8266 NodeMCU V3 + DS18B20:
 =============================================== 
  ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/monitor%20arduino.png)
  ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/freezer.png)
  ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/geladeira.png)
  
+  Cronômetro
+=============================================== 
  ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/cronometro1.png)
  ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/vazio.png)
   
+ 
+  Criar Receitas:
+===============================================   
  ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/receita1.png)
  ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/receita2.png)
- 
  ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/receita3.png)
  ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/descricaoreceita4.png)
- 
  ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/descricaoreceita3.png)
 
  Produtos:
 =====================
  ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/menu-prod1.png)
  
-
  American Pale Ale:
 =============================================== 
 
