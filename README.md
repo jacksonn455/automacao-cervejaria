@@ -46,7 +46,8 @@ Velha Guarda Cervejaria
  ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/animacao-automacao.png)
  ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/automaca.png)
  
- 
+  Medidor de temperatura com o Módulo ESP8266 NodeMCU V3 + DS18B20
+=============================================== 
  ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/monitor%20arduino.png)
  ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/freezer.png)
  ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/geladeira.png)
