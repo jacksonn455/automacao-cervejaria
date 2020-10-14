@@ -46,6 +46,8 @@ Velha Guarda Cervejaria
  ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/animacao-automacao.png)
  ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/automaca.png)
  
+ 
+ ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/monitor%20arduino.png)
  ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/freezer.png)
  ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/readme/geladeira.png)
  
