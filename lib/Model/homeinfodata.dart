@@ -6,22 +6,11 @@ import 'activetabmodel.dart';
 class HomeInfoData extends ChangeNotifier {
   List<HomeInfoModel> infoData = [
     HomeInfoModel(
-        title: 'Freezer',
+        title: 'Monitor de temperatura',
         isFanOn: false,
-        humidity: '30%',
-        setTemp: 2,
+        setTemp: 75,
         fanSpeed: 0,
-        currentTemp: '-1°C',
         knobReading: 0.37
-    ),
-    HomeInfoModel(
-        title: 'Geladeira',
-        isFanOn: true,
-        humidity: '30%',
-        setTemp: 6,
-        fanSpeed: 1,
-        currentTemp: '8°C',
-      knobReading: 0.26
     ),
   ];
 
