@@ -154,9 +154,7 @@ class LandScapeAirConditionerUnit extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       crossAxisAlignment: CrossAxisAlignment.center,
                       children: <Widget>[
-                        CurrentTempWidget(roomData.currentTemp),
                         Container(height: 50, width: 2, color: Colors.grey[300],),
-                        HumidityWidget(roomData.humidity),
                       ],
                     ),
                     ChangeTempWidget(roomData.setTemp),
@@ -292,13 +290,11 @@ class PortraitAirConditionerUnit extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     crossAxisAlignment: CrossAxisAlignment.end,
                     children: <Widget>[
-                      CurrentTempWidget(roomData.currentTemp),
                       Container(
                         height: 50,
                         width: 2,
                         color: Colors.grey[300],
                       ),
-                      HumidityWidget(roomData.humidity),
                     ],
                   ),
                   ChangeTempWidget(roomData.setTemp),

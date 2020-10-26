@@ -2,8 +2,6 @@
 
 class HomeInfoModel {
   String title;
-  String currentTemp;
-  String humidity;
   int setTemp;
   int fanSpeed;
   bool isFanOn;
@@ -12,10 +10,8 @@ class HomeInfoModel {
   HomeInfoModel({
     this.title="room",
     this.isFanOn = false,
-    this.humidity = '24%',
     this.setTemp =0,
     this.fanSpeed=2,
-    this.currentTemp='28°C',
     this.knobReading,
   });
 
