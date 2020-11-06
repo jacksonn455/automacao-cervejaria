@@ -13,6 +13,7 @@ Velha Guarda Cervejaria
  Cerveja
 =====================
  ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/Sem%20t%C3%ADtulo.png)
+ ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/kit3.jpg)
  ![](https://github.com/jacksonn455/automacao-cervejaria/blob/master/images/rotulo.png)
 
  Aplicativo
