@@ -1,8 +1,8 @@
 Velha Guarda Cervejaria
 ===============================================
 
-  - [Apresentação Projeto de conclusão de curso](https://github.com/jacksonn455/automacao-cervejaria/blob/master/arquivos/Apresenta%C3%A7%C3%A3o%20do%20Projeto%20de%20Conclus%C3%A3o%20de%20Curso.pdf)
-  - [Monografia Projeto de conclusão de curso](https://github.com/jacksonn455/automacao-cervejaria/blob/master/arquivos/Monografia%20do%20Projeto%20de%20Conclus%C3%A3o%20de%20Curso.pdf)
+  - [Apresentação Projeto de conclusão de curso](https://github.com/jacksonn455/automacao-cervejaria/blob/master/arquivos/Apresenta%C3%A7%C3%A3o%20-%20Trabalho%20de%20conclus%C3%A3o%20de%20curso.pdf)
+  - [Monografia Projeto de conclusão de curso](https://github.com/jacksonn455/automacao-cervejaria/blob/master/arquivos/Monografia%20do%20Trabalho%20de%20Conclus%C3%A3o%20de%20Curso.pdf)
   - [Manual do usuário](https://github.com/jacksonn455/automacao-cervejaria/blob/master/arquivos/Manual%20do%20usu%C3%A1rio.pdf)
 
  Vídeo
